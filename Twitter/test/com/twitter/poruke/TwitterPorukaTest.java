@@ -16,7 +16,7 @@ import org.junit.Test;
 public class TwitterPorukaTest {
 	private TwitterPoruka t;
 	/**
-	 * @throws java.lang.Exception
+	 * @throws java.lang.RuntimeException
 	 */
 	@Before
 	public void setUp() throws Exception {
@@ -24,7 +24,7 @@ public class TwitterPorukaTest {
 	}
 
 	/**
-	 * @throws java.lang.Exception
+	 * @throws java.lang.RuntimeException
 	 */
 	@After
 	public void tearDown() throws Exception {
